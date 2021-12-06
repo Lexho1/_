@@ -1,0 +1,32 @@
+{
+    "id": "Lexho",
+    "name": "Lexho",
+    "author": "@Lexho",
+    "icon": "",
+    "repo": "https://github.com/Lexho",
+    "apps": [{
+            "id": "cchy",
+            "name": "多多花园",
+            "keys": ["ddhyhd", "ddhyhd2", "ddhyhd3", "ddhyhd4", "ddhyhd5"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "ddhysuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "ddhycount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+            ],
+            "repo": "https://raw.githubusercontent.com/Lexho1/_/main/_.js",
+            "icons": [""],
+            "script": "https://raw.githubusercontent.com/Lexho1/_/main/_.js"
+        }
+    ]
+}
